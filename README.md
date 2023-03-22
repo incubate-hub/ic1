@@ -1,11 +1,43 @@
-This is an HTML code for a web page that appears to be a Code Complexity Analyzer. The page contains various elements such as headings, labels, dropdown lists, text areas, and buttons, which are defined using HTML tags.
+Time Complexity and Space Complexity
 
-The first line specifies the document type as HTML. The <html> tag is used to enclose the entire content of the web page. The <head> tag is used to define the header of the web page, which contains the link to an external stylesheet file (tc.css).
+This repository contains sample code and explanations of time complexity and space complexity in algorithms.
 
-The <body> tag contains the visible content of the web page. It has various attributes like align and bgcolor, which set the alignment and background color of the web page, respectively. The <h1> tag defines the main heading of the web page.
 
-Two <div> tags are used to group related elements together. The first <div> contains a label and a dropdown list, allowing the user to select the programming language. The second <div> contains a label and a text area for entering the code. The third <div> contains a button, which when clicked will perform the analysis of the code complexity.
+What is Time Complexity?
 
-The fourth <div> contains the output of the program. It has two child <div>s, which are initially empty but will be filled with content when the code analysis is performed. The first child <div> will show the result of the analysis, while the second child <div> will show a detailed analysis of the code.
+Time complexity refers to the amount of time an algorithm takes to solve a problem as the input size grows. It measures the efficiency of an algorithm in terms of time, and it is expressed using the Big O notation.
 
-Finally, two <script> tags are used to include two JavaScript files (tcAnalyze.js and tc.js), which will contain the code to analyze the complexity of the code entered by the user.
+
+What is Space Complexity?
+
+Space complexity refers to the amount of memory space required by an algorithm to solve a problem as the input size grows. It measures the efficiency of an algorithm in terms of memory usage, and it is also expressed using the Big O notation.
+
+
+Examples
+
+This repository contains sample code that demonstrates the time complexity and space complexity of various algorithms, including:
+
+
+
+Linear Search
+
+Binary Search
+
+Bubble Sort
+
+Merge Sort
+
+Quick Sort
+
+
+Each example includes an explanation of the time complexity and space complexity of the algorithm, as well as a detailed analysis of the code.
+
+
+How to Use
+
+To use this repository, simply clone the repository and run the code examples in your preferred programming language. Each example includes comments that explain how the algorithm works and what its time complexity and space complexity are.
+
+
+Contributing
+
+Contributions to this repository are welcome. If you notice an error or want to add an example of an algorithm, please open an issue or submit a pull request.
